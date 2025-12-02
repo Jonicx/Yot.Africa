@@ -7,6 +7,7 @@ import Footer from '../../components/landing/Footer';
 import ArtisticBackground from '../../components/ui/ArtisticBackground';
 import StarParticleBackground from '../../components/ui/StarParticleBackground';
 import ParallaxBackground from '../../components/ui/ParallaxBackground'
+import logoSvg from '../../assets/logo.svg';
 
 
 export default function Landing() {
@@ -24,7 +25,7 @@ export default function Landing() {
         <ParallaxBackground>
           <header className="absolute top-6 left-4 right-4 sm:left-6 sm:right-6 flex justify-between items-start gap-4 z-20">
             <a href="/" className="inline-block" aria-label="Yot.Africa home">
-              <img src="/assets/img/YOT - YOUR OWN TICKET OFFICIAL LOGO DESIGN.svg" alt="Yot.Africa logo" className="h-40 md:h-48 -my-16 -ml-8 sm:-ml-10" />
+              <img src={logoSvg} alt="Yot.Africa logo" className="h-40 md:h-48 -my-16 -ml-8 sm:-ml-10" />
             </a>
             <nav className="flex flex-col gap-2.5 items-center">
               {socialLinks.map((social) => {

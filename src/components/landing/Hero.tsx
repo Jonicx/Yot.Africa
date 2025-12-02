@@ -1,10 +1,11 @@
 import EmailForm from './EmailForm';
+import logoSvg from '../../assets/logo.svg';
 
 export default function Hero() {
   return (
     <section className="pt-32 pb-16 px-4 text-center">
       <h1 className="tracking-wide text-5xl md:text-7xl font-bold font-poppins mb-4 drop-shadow-lg" style={{ textShadow: '0 0 8px rgba(255, 58, 58, 0.35)' }}>
-        <img src="/assets/img/YOT - YOUR OWN TICKET OFFICIAL LOGO DESIGN.svg" alt="Yot.Africa logo" className="mx-auto h-72 md:h-72 -my-28" />
+        <img src={logoSvg} alt="Yot.Africa logo" className="mx-auto h-48 md:h-64 -my-3" />
       </h1>
       <p className="text-xl md:text-2xl text-yot-red-glow font-poppins font-semibold mb-4">
         Your Own Ticket
