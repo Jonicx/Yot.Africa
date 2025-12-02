@@ -1,5 +1,6 @@
 import EmailForm from './EmailForm';
-import logoSvg from '../../assets/logo.svg';
+
+const logoSvg = new URL('../../assets/logo.svg', import.meta.url).href;
 
 export default function Hero() {
   return (

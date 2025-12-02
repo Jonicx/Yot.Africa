@@ -7,7 +7,8 @@ import Footer from '../../components/landing/Footer';
 import ArtisticBackground from '../../components/ui/ArtisticBackground';
 import StarParticleBackground from '../../components/ui/StarParticleBackground';
 import ParallaxBackground from '../../components/ui/ParallaxBackground'
-import logoSvg from '../../assets/logo.svg';
+
+const logoSvg = new URL('../../assets/logo.svg', import.meta.url).href;
 
 
 export default function Landing() {
