@@ -3,7 +3,7 @@ import { useMemo } from "react";
 export default function StarParticleBackground() {
   // Generate stable star positions using useMemo to prevent re-randomization on re-renders
   const smallStars = useMemo(() => {
-    return Array.from({ length: 20 }, (_, i) => ({
+    return Array.from({ length: 20 }, () => ({
       size: Math.random() * 6 + 2,
       top: Math.random() * 100,
       left: Math.random() * 100,
@@ -14,7 +14,7 @@ export default function StarParticleBackground() {
   }, []);
 
   const tinyStars = useMemo(() => {
-    return Array.from({ length: 30 }, (_, i) => ({
+    return Array.from({ length: 30 }, () => ({
       top: Math.random() * 100,
       left: Math.random() * 100,
       duration: Math.random() * 3 + 1,

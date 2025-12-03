@@ -6,8 +6,8 @@ interface ParallaxBackgroundProps {
 
 export default function ParallaxBackground({ children }: ParallaxBackgroundProps) {
   const [scrollY, setScrollY] = useState(0);
-  const [mouseX, setMouseX] = useState(0);
-  const [mouseY, setMouseY] = useState(0);
+  const [, setMouseX] = useState(0);
+  const [, setMouseY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
