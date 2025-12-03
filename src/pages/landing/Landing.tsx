@@ -1,11 +1,11 @@
 import { Instagram, Twitter, Facebook, Linkedin } from 'lucide-react';
-import BlobBackground from '../../components/ui/BlobBackground';
 import Hero from '../../components/landing/Hero';
 import FeaturesGrid from '../../components/landing/FeaturesGrid';
 import Steps from '../../components/landing/Steps';
 import Footer from '../../components/landing/Footer';
 import ArtisticBackground from '../../components/ui/ArtisticBackground';
 import StarParticleBackground from '../../components/ui/StarParticleBackground';
+import ShootingStars from '../../components/ui/ShootingStars';
 import ParallaxBackground from '../../components/ui/ParallaxBackground'
 
 const logoSvg = new URL('../../assets/logo.svg', import.meta.url).href;
@@ -23,10 +23,11 @@ export default function Landing() {
     <div className="min-h-screen relative bg-yot-black text-white overflow-hidden">
       <ArtisticBackground >
         <StarParticleBackground/>
+        <ShootingStars />
         <ParallaxBackground>
           <header className="absolute top-6 left-4 right-4 sm:left-6 sm:right-6 flex justify-between items-start gap-4 z-20">
             <a href="/" className="inline-block" aria-label="Yot.Africa home">
-              <img src={logoSvg} alt="Yot.Africa logo" className="h-40 md:h-48 -my-16 -ml-8 sm:-ml-10" />
+              <img src={logoSvg} alt="Yot.Africa logo" className="h-7 md:h-7 my-0 sm:-my-0 sm:-ml-0 -ml-0" />
             </a>
             <nav className="flex flex-col gap-2.5 items-center">
               {socialLinks.map((social) => {
