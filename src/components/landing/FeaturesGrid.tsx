@@ -32,7 +32,7 @@ export default function FeaturesGrid() {
               <div className="inline-block p-3 bg-yot-red/15 rounded-lg mb-4">
                 <Icon className="w-8 h-8 text-yot-red-glow" />
               </div>
-              <h3 className="font-semibold font-poppins text-yot-light-grey mb-2">
+              <h3 className="font-semibold font-poppins text-white mb-2">
                 {feature.title}
               </h3>
               <p className="text-sm text-white font-inter">

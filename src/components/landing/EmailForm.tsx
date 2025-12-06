@@ -34,13 +34,13 @@ export default function EmailForm() {
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="you@email.com"
+        placeholder="johndoe@email.com"
         className="w-full sm:flex-1 sm:min-w-0 rounded-lg px-4 py-3 bg-yot-dark-grey placeholder-yot-muted-grey focus:outline-none focus:ring-2 focus:ring-yot-red-glow border border-yot-mid-grey text-yot-light-grey"
         aria-label="Email address"
       />
       <button
         type="submit"
-        className="bg-yot-red text-yot-light-grey px-6 py-3 rounded-md font-semibold font-poppins transition-all w-full sm:w-auto whitespace-nowrap hover:bg-yot-red-glow hover:shadow-neonLg"
+        className="bg-yot-red text-white px-6 py-3 rounded-md font-semibold font-poppins transition-all w-full sm:w-auto whitespace-nowrap hover:bg-yot-red-glow hover:shadow-neonLg"
         style={{ boxShadow: '0 0 12px rgba(255, 58, 58, 0.45)' }}
       >
         Notify Me

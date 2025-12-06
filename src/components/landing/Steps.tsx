@@ -26,7 +26,7 @@ export default function Steps() {
                     <div className="hidden md:block absolute top-8 left-full w-8 h-0.5 bg-gradient-to-r from-yot-red-glow to-transparent" />
                   )}
                 </div>
-                <p className="text-center font-inter text-yot-light-grey font-medium">
+                <p className="text-center font-inter text-white font-medium">
                   {step.label}
                 </p>
               </div>

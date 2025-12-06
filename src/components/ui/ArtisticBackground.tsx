@@ -8,7 +8,7 @@ export default function ArtisticBackground({ children }: ArtisticBackgroundProps
       {/* Artistic blurred background shapes */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Main glow blobs */}
-        <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-yot-red-glow/15 rounded-full blur-3xl animate-bounce" style={{animationDuration: "4s"}}/>
+        <div className="absolute -top-40 -left-40 w-[200px] md:w-[600px] md:h-[600px] h-[200px] bg-yot-red-glow/15 rounded-full blur-3xl animate-bounce" style={{animationDuration: "4s"}}/>
         <div className="absolute -top-20 right-0 w-[450px] h-[450px] bg-yot-red-glow/12 rounded-full blur-2xl animate-slow" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-yot-red-glow/10 rounded-full blur-[120px] animate-pulse" />
 

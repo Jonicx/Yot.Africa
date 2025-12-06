@@ -11,7 +11,7 @@ export default function Hero() {
       <p className="text-xl md:text-2xl text-yot-red-glow font-poppins font-semibold mb-4">
         Your Own Ticket
       </p>
-      <p className="max-w-xl mx-auto text-base md:text-lg text-yot-light-grey font-inter mb-8">
+      <p className="max-w-xl mx-auto text-base md:text-lg text-white font-inter mb-8">
         The ultimate event ticketing platform for Tanzania. Fast, secure, and built for the continent. Join us.
       </p>
       <div className="flex justify-center">
